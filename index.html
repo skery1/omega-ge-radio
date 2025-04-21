@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omega-GE Radio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #111; color: #fff; }
+    header { background: #ff6a00; padding: 1rem; text-align: center; }
+    header img { max-width: 120px; }
+    nav { background: #222; display: flex; justify-content: center; gap: 2rem; padding: 1rem; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; }
+    .radio-player { text-align: center; margin-top: 1rem; }
+    .news, .promo, .ads { margin-bottom: 2rem; }
+    .ad-box { background: #333; padding: 1rem; margin-top: 1rem; }
+    .social-icons { text-align: center; margin: 1rem 0; }
+    .social-icons a { margin: 0 10px; text-decoration: none; color: #fff; font-size: 1.5rem; }
+    .form-container { background: #222; padding: 1rem; border-radius: 10px; max-width: 500px; margin: 0 auto; }
+    .form-container input, .form-container textarea { width: 100%; padding: 0.5rem; margin-top: 0.5rem; background: #111; color: #fff; border: 1px solid #444; border-radius: 5px; }
+    .form-container button { background: #ff6a00; color: #fff; border: none; padding: 0.7rem 1.5rem; margin-top: 1rem; cursor: pointer; border-radius: 5px; }
+    footer { background: #222; text-align: center; padding: 1rem; color: #aaa; }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/ZzmVvWj/omega-logo.png" alt="Omega-GE Radio Logo" />
+    <h1>Omega-GE Radio</h1>
+    <p>Building a Stylish Generation</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#promo">Music Promo</a>
+    <a href="#ads">Advertise</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Live Radio</h2>
+    <div class="radio-player">
+      <audio controls autoplay>
+        <source src="https://stream.zeno.fm/puwca5c8hkeuv" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </section>
+
+  <section id="news" class="news">
+    <h2>Latest News</h2>
+    <p>Coming soon: Omega-GE Radio partners with global stations for broader reach.</p>
+    <p>Catch our weekly youth segment every Friday at 6 PM GMT.</p>
+  </section>
+
+  <section id="promo" class="promo">
+    <h2>Music Promotions</h2>
+    <p>We spotlight rising artists every week. Submit your track to <a href="mailto:omegageradio@gmail.com">omegageradio@gmail.com</a></p>
+  </section>
+
+  <section id="ads" class="ads">
+    <h2>Advertise With Us</h2>
+    <div class="ad-box">Ad Spot 1 - Your business here</div>
+    <div class="ad-box">Ad Spot 2 - Contact +233244679833</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="form-container">
+      <form action="https://formsubmit.co/omegageradio@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <div class="social-icons">
+      <a href="https://facebook.com/omegaGEradio" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/233244679833" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>Email: omegageradio@gmail.com<br>Phone: +233 244 679 833</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Omega-GE Radio. All rights reserved.
+  </footer>
+</body>
+</html>
